@@ -34,6 +34,7 @@ for post in posts:
     post_content = post_content.replace("&#160;", "")
     post_content = post_content.replace("&nbsp;", "")
     post_content = post_content.replace("<!--more-->", "")
+    post_content = re.sub("<br\s*/?>", "\n", post_content)
     post_content = post_content.replace("<p>", "\n<p>")
     post_content = post_content.replace("</p>", "</p>\n")
     post_content = re.sub("<h\d>", "\n\g<0>", post_content)

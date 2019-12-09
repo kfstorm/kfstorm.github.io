@@ -366,9 +366,9 @@ long capacity
 
 
 
-<br />或者
+或者
 
-<br />
+
 
 string mapName,
 
@@ -378,9 +378,9 @@ long capacity
 
 
 
-<br />还有
+还有
 
-<br />
+
 
 string mapName
 
@@ -542,11 +542,11 @@ catch { }
 
 
 
-<br />这里在ClearMappedFile方法里将0序列化到文件里，以达到清除文件中的频道信息的目的。
+这里在ClearMappedFile方法里将0序列化到文件里，以达到清除文件中的频道信息的目的。
 
-<br />在主窗口的构造函数中这样写：
+在主窗口的构造函数中这样写：
 
-<br />
+
 
 {
 
