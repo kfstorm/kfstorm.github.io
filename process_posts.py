@@ -19,6 +19,7 @@ for post in posts:
   # replace URLs
   content = post["post_content"]
   content = re.sub(r'https?://[^"<>\s]+/wp-content/uploads/', r'/attachment/uploads/', content)
+  content = content.replace("http://up.kfstorm.com/BingWallpaper", "/attachment/up/bingwallpaper/BingWallpaper")
   content = content.replace("http://up.kfstorm.com/", "/attachment/up/")
   content = content.replace("/_thumb", "/thumb")
   content = content.replace("http://doubanfmcloud-client.stor.sinaapp.com/", "/attachment/up/doubanfm/")
