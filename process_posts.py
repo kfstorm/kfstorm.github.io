@@ -1,5 +1,5 @@
 import json
-import re
+import regex as re
 import shutil
 import os
 import tomd
@@ -7,7 +7,7 @@ from urllib.parse import unquote
 
 
 def get_file_name(post):
-  return unquote(post["post_name"]).replace("！", "")
+  return re.sub(r'\p{P}+', "-", unquote(post["post_name"]))
 
 
 with open("posts.json", "r") as posts_file:
