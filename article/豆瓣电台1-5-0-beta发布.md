@@ -6,11 +6,11 @@ PS：感叹一下，这是国庆吗……
 
 1.5.0 Beta下载地址：[http://doubanfmcloud-client.stor.sinaapp.com/DoubanFMSetup_1.5.0_Beta.exe](http://doubanfmcloud-client.stor.sinaapp.com/DoubanFMSetup_1.5.0_Beta.exe)
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="abc" border="0" alt="abc" src="http://up.kfstorm.com/blog/images/1.5.0-Beta_13DE0/abc_thumb.jpg" width="500" height="281" />](http://up.kfstorm.com/blog/images/1.5.0-Beta_13DE0/abc.jpg)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="abc" border="0" alt="abc" src="/attachment/upblog/images/1.5.0-Beta_13DE0/abc_thumb.jpg" width="500" height="281" />](/attachment/upblog/images/1.5.0-Beta_13DE0/abc.jpg)
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="abc2" border="0" alt="abc2" src="http://up.kfstorm.com/blog/images/1.5.0-Beta_13DE0/abc2_thumb.jpg" width="500" height="281" />](http://up.kfstorm.com/blog/images/1.5.0-Beta_13DE0/abc2.jpg)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="abc2" border="0" alt="abc2" src="/attachment/upblog/images/1.5.0-Beta_13DE0/abc2_thumb.jpg" width="500" height="281" />](/attachment/upblog/images/1.5.0-Beta_13DE0/abc2.jpg)
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="abc3" border="0" alt="abc3" src="http://up.kfstorm.com/blog/images/1.5.0-Beta_13DE0/abc3_thumb.jpg" width="500" height="281" />](http://up.kfstorm.com/blog/images/1.5.0-Beta_13DE0/abc3.jpg)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="abc3" border="0" alt="abc3" src="/attachment/upblog/images/1.5.0-Beta_13DE0/abc3_thumb.jpg" width="500" height="281" />](/attachment/upblog/images/1.5.0-Beta_13DE0/abc3.jpg)
 
 &#160;
 

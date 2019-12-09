@@ -46,13 +46,13 @@ Windows XP或更高版本的系统，需要.NET Framework 4.0或4.5。
 
 # 最新版本截图
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="DoubanFM_2.0.0" src="http://up.kfstorm.com/blog/images/6bed5105f9ad_12187/DoubanFM_2.0.0_thumb.jpg" alt="DoubanFM_2.0.0" width="504" height="261" border="0" />](http://up.kfstorm.com/blog/images/6bed5105f9ad_12187/DoubanFM_2.0.0.jpg)
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="DoubanFM_2.0.0" src="/attachment/upblog/images/6bed5105f9ad_12187/DoubanFM_2.0.0_thumb.jpg" alt="DoubanFM_2.0.0" width="504" height="261" border="0" />](/attachment/upblog/images/6bed5105f9ad_12187/DoubanFM_2.0.0.jpg)
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="DoubanFM_1.7.5" src="http://up.kfstorm.com/blog/images/8e021cd7c326_131F7/DoubanFM_1.7.5_thumb.jpg" alt="DoubanFM_1.7.5" width="500" height="281" border="0" />](http://up.kfstorm.com/blog/images/8e021cd7c326_131F7/DoubanFM_1.7.5.jpg)
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="DoubanFM_1.7.5" src="/attachment/upblog/images/8e021cd7c326_131F7/DoubanFM_1.7.5_thumb.jpg" alt="DoubanFM_1.7.5" width="500" height="281" border="0" />](/attachment/upblog/images/8e021cd7c326_131F7/DoubanFM_1.7.5.jpg)
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="DoubanFM_1.7.4_2" src="http://up.kfstorm.com/blog/images/8e021cd7c326_131F7/DoubanFM_1.7.4_2_thumb.jpg" alt="DoubanFM_1.7.4_2" width="500" height="234" border="0" />](http://up.kfstorm.com/blog/images/8e021cd7c326_131F7/DoubanFM_1.7.4_2.jpg)
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="DoubanFM_1.7.4_2" src="/attachment/upblog/images/8e021cd7c326_131F7/DoubanFM_1.7.4_2_thumb.jpg" alt="DoubanFM_1.7.4_2" width="500" height="234" border="0" />](/attachment/upblog/images/8e021cd7c326_131F7/DoubanFM_1.7.4_2.jpg)
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="DoubanFM_1.7.5_2" src="http://up.kfstorm.com/blog/images/8e021cd7c326_131F7/DoubanFM_1.7.5_2_thumb.jpg" alt="DoubanFM_1.7.5_2" width="500" height="281" border="0" />](http://up.kfstorm.com/blog/images/8e021cd7c326_131F7/DoubanFM_1.7.5_2.jpg)
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="DoubanFM_1.7.5_2" src="/attachment/upblog/images/8e021cd7c326_131F7/DoubanFM_1.7.5_2_thumb.jpg" alt="DoubanFM_1.7.5_2" width="500" height="281" border="0" />](/attachment/upblog/images/8e021cd7c326_131F7/DoubanFM_1.7.5_2.jpg)
 
 # 
 

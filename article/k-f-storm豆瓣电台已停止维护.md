@@ -4,7 +4,7 @@
 
 豆瓣官方已停止支持桌面客户端，详情请见[http://www.douban.com/group/topic/81018842/](http://www.douban.com/group/topic/81018842/)。
 
-[<img class="alignnone size-medium wp-image-1531" src="http://www.kfstorm.com/blog/wp-content/uploads/2015/11/stop-500x250.jpg" alt="stop" width="500" height="250" />](http://www.kfstorm.com/blog/wp-content/uploads/2015/11/stop.jpg)
+[<img class="alignnone size-medium wp-image-1531" src="/attachment/uploads/2015/11/stop-500x250.jpg" alt="stop" width="500" height="250" />](/attachment/uploads/2015/11/stop.jpg)
 
 这个客户端是四年前我读大学时闲着没事做的，那个时候有时间，也有精力去做这样一个客户端。现在不一样了，我已工作两年多，平时在无多余时间去维护它。况且现在豆瓣把桌面版的API整个禁掉，客户端需要大改才能适应新的API，实在有心无力。现在回过头来看自己当时写的代码，真的很丑，也很难维护，我已不想再碰。自认为这两年工作经历使得自己写代码的水平提高了不少，而且我认为做UI对写代码能力的提升非常有限，已不值得花这个时间再去维护或者推翻重来一遍了。
 

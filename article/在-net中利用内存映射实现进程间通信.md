@@ -4,7 +4,7 @@
 
 在我写的豆瓣电台里，有一个利用Win7任务栏中的跳转列表实现频道切换的功能，截图如下：
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image5" border="0" alt="image5" src="http://up.kfstorm.com/blog/images/d0dc2d75cb07.NET_13ADA/image5_thumb.jpg" width="230" height="498" />](http://up.kfstorm.com/blog/images/d0dc2d75cb07.NET_13ADA/image5.jpg)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image5" border="0" alt="image5" src="/attachment/upblog/images/d0dc2d75cb07.NET_13ADA/image5_thumb.jpg" width="230" height="498" />](/attachment/upblog/images/d0dc2d75cb07.NET_13ADA/image5.jpg)
 
 当点击列表中的频道时，豆瓣电台就能够切换到相应的频道。
 

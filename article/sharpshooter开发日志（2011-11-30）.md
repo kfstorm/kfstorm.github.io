@@ -12,7 +12,7 @@
 
 格式化文本效果图：
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="clip_image002" border="0" alt="clip_image002" src="http://up.kfstorm.com/blog/images/Sharpshooter2011-11-30_540/clip_image002_thumb.jpg" width="500" height="383" />](http://up.kfstorm.com/blog/images/Sharpshooter2011-11-30_540/clip_image002.jpg)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="clip_image002" border="0" alt="clip_image002" src="/attachment/upblog/images/Sharpshooter2011-11-30_540/clip_image002_thumb.jpg" width="500" height="383" />](/attachment/upblog/images/Sharpshooter2011-11-30_540/clip_image002.jpg)
 
 #### 
 
@@ -26,4 +26,4 @@
 
 效果图：
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="clip_image004" border="0" alt="clip_image004" src="http://up.kfstorm.com/blog/images/Sharpshooter2011-11-30_540/clip_image004_thumb.jpg" width="500" height="400" />](http://up.kfstorm.com/blog/images/Sharpshooter2011-11-30_540/clip_image004.jpg)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="clip_image004" border="0" alt="clip_image004" src="/attachment/upblog/images/Sharpshooter2011-11-30_540/clip_image004_thumb.jpg" width="500" height="400" />](/attachment/upblog/images/Sharpshooter2011-11-30_540/clip_image004.jpg)

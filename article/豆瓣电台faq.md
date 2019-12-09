@@ -14,7 +14,7 @@
 
 打开C:\Windows\Microsoft.NET\Framework，如果这个文件夹下有v4.0.30319这个文件夹，就说明有.NET 4.0。如下图：
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image" alt="image" src="http://up.kfstorm.com/blog/images/FAQ_DCA8/image_thumb.jpg" width="500" height="314" border="0" />](http://up.kfstorm.com/blog/images/FAQ_DCA8/image.jpg)
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image" alt="image" src="/attachment/upblog/images/FAQ_DCA8/image_thumb.jpg" width="500" height="314" border="0" />](/attachment/upblog/images/FAQ_DCA8/image.jpg)
 
 点击[这里](http://www.microsoft.com/zh-cn/download/details.aspx?id=30653)下载.NET Framework 4.5。（XP用户请点[这里](http://www.microsoft.com/zh-cn/download/details.aspx?id=17718)下载.NET Framework 4.0。）
 
@@ -40,9 +40,9 @@
 
 下面是设置成功后的效果：
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image1" alt="image1" src="http://up.kfstorm.com/blog/images/FAQ_DCA8/image1_thumb.jpg" width="500" height="281" border="0" />](http://up.kfstorm.com/blog/images/FAQ_DCA8/image1.jpg)
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image1" alt="image1" src="/attachment/upblog/images/FAQ_DCA8/image1_thumb.jpg" width="500" height="281" border="0" />](/attachment/upblog/images/FAQ_DCA8/image1.jpg)
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image2" alt="image2" src="http://up.kfstorm.com/blog/images/FAQ_DCA8/image2_thumb.jpg" width="500" height="281" border="0" />](http://up.kfstorm.com/blog/images/FAQ_DCA8/image2.jpg)
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image2" alt="image2" src="/attachment/upblog/images/FAQ_DCA8/image2_thumb.jpg" width="500" height="281" border="0" />](/attachment/upblog/images/FAQ_DCA8/image2.jpg)
 
 # 5、为什么点击分享到其他网站的链接后不能听到我分享的那首音乐？
 
@@ -78,7 +78,7 @@
 
 Win7下，在开始菜单搜索“事件”，在搜索结果中打开事件查看器。
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image3" alt="image3" src="http://up.kfstorm.com/blog/images/FAQ_DCA8/image3_thumb.jpg" width="491" height="480" border="0" />](http://up.kfstorm.com/blog/images/FAQ_DCA8/image3.jpg)
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image3" alt="image3" src="/attachment/upblog/images/FAQ_DCA8/image3_thumb.jpg" width="491" height="480" border="0" />](/attachment/upblog/images/FAQ_DCA8/image3.jpg)
 
 XP下，单击“开始”，然后单击“控制面板”。单击“性能和维护”，再单击“管理工具”，然后双击“计算机管理”，在控制台树中，单击“事件查看器”。
 
@@ -86,15 +86,15 @@ XP下，单击“开始”，然后单击“控制面板”。单击“性能和
 
 Win7下，在事件查看器左侧依次选择“Windows日志”、“应用程序”，然后点击右侧的“筛选当前日志…”
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image4" alt="image4" src="http://up.kfstorm.com/blog/images/FAQ_DCA8/image4_thumb.jpg" width="500" height="267" border="0" />](http://up.kfstorm.com/blog/images/FAQ_DCA8/image4.jpg)
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image4" alt="image4" src="/attachment/upblog/images/FAQ_DCA8/image4_thumb.jpg" width="500" height="267" border="0" />](/attachment/upblog/images/FAQ_DCA8/image4.jpg)
 
 在事件来源中勾选“.NET Runtime”，然后点击确定。
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image5" alt="image5" src="http://up.kfstorm.com/blog/images/FAQ_DCA8/image5_thumb.jpg" width="500" height="500" border="0" />](http://up.kfstorm.com/blog/images/FAQ_DCA8/image5.jpg)
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image5" alt="image5" src="/attachment/upblog/images/FAQ_DCA8/image5_thumb.jpg" width="500" height="500" border="0" />](/attachment/upblog/images/FAQ_DCA8/image5.jpg)
 
 找到时间最接近崩溃时的时间的那一条日志，确认下面的常规中写着“应用程序: DoubanFM.exe”。若无问题，常规下面的框中的内容即为我需要的错误日志信息，请复制出来。
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image6" alt="image6" src="http://up.kfstorm.com/blog/images/FAQ_DCA8/image6_thumb.jpg" width="500" height="267" border="0" />](http://up.kfstorm.com/blog/images/FAQ_DCA8/image6.jpg)
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image6" alt="image6" src="/attachment/upblog/images/FAQ_DCA8/image6_thumb.jpg" width="500" height="267" border="0" />](/attachment/upblog/images/FAQ_DCA8/image6.jpg)
 
 # 10、为什么无法播放音乐，音乐进度条不走动？
 
