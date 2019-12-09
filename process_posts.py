@@ -13,7 +13,7 @@ with open("posts.json", "r") as posts_file:
 shutil.rmtree("article", ignore_errors=True)
 os.mkdir("article")
 for post in posts:
-  post_file_name = "article/{}.html".format(unquote(post["post_name"]))
+  post_file_name = "article/{}-html.html".format(unquote(post["post_name"]))
   with open(post_file_name, "w") as post_file:
     post_file.write(post["post_content"])
   post_file_name = "article/{}.md".format(unquote(post["post_name"]))
@@ -32,10 +32,8 @@ with open("index.md.template", "r") as index_template_file:
 
 article_list = ""
 for post in posts:
-  article = """
-[{} {}](/article/{}.html) [Markdown](/article/{}.md)
-
-""".format(post["post_title"], post["post_date"], unquote(post["post_name"]), unquote(post["post_name"]))
+  article = "[{}](/article/{}-html.html) [Markdown](/article/{}.md) {}\n\n" \
+    .format(post["post_title"], unquote(post["post_name"]), unquote(post["post_name"]), post["post_date"])
   article_list += article
 
 index_content = index_template.replace("ARTICLE_LIST", article_list)
