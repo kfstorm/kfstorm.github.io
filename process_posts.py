@@ -12,12 +12,18 @@ def get_file_name(post):
 
 with open("posts.json", "r") as posts_file:
   posts_file_content = posts_file.read().replace("\\r\\n", "\\n")
-  # replace URLs
-  posts_file_content = re.sub(r'https?://[^"<>\s]+/wp-content/uploads/', r'/attachment/uploads/', posts_file_content)
-  posts_file_content = posts_file_content.replace("http://up.kfstorm.com/", "/attachment/up/")
-  posts_file_content = posts_file_content.replace("/_thumb", "/thumb")
   posts = json.loads(posts_file_content)
   posts.sort(key=lambda p: p["post_date"], reverse=True)
+
+for post in posts:
+  # replace URLs
+  content = post["post_content"]
+  content = re.sub(r'https?://[^"<>\s]+/wp-content/uploads/', r'/attachment/uploads/', content)
+  content = content.replace("http://up.kfstorm.com/", "/attachment/up/")
+  content = content.replace("/_thumb", "/thumb")
+  # replace video tag
+  content = re.sub(r'<(?:embed|object).*\"http://player.youku.com/player.php/sid/(\w+)/v.swf.*</(?:embed|object)>', r'<iframe height=498 width=510 src="http://player.youku.com/embed/\g<1>" frameborder=0 "allowfullscreen"></iframe>', content)
+  post["post_content"] = content
 
 shutil.rmtree("article", ignore_errors=True)
 os.mkdir("article")

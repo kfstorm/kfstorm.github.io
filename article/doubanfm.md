@@ -60,7 +60,7 @@ Windows XP或更高版本的系统，需要.NET Framework 4.0或4.5。
 
 [http://v.youku.com/v_show/id_XMzQ0MDczMjQ4.html](http://v.youku.com/v_show/id_XMzQ0MDczMjQ4.html)
 
-<object width="480" height="400" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://player.youku.com/player.php/sid/XMzQ0MDczMjQ4/v.swf" /><param name="allowfullscreen" value="true" /><param name="quality" value="high" /><param name="allowscriptaccess" value="always" /><embed width="480" height="400" type="application/x-shockwave-flash" src="http://player.youku.com/player.php/sid/XMzQ0MDczMjQ4/v.swf" allowfullscreen="allowfullscreen" quality="high" allowscriptaccess="always" /></object>
+<iframe height=498 width=510 src="http://player.youku.com/embed/XMzQ0MDczMjQ4" frameborder=0 "allowfullscreen"></iframe>
 
 # 
 
@@ -68,7 +68,7 @@ Windows XP或更高版本的系统，需要.NET Framework 4.0或4.5。
 
 [http://v.youku.com/v_show/id_XMzAwNDgyNjg0.html](http://v.youku.com/v_show/id_XMzAwNDgyNjg0.html)
 
-<object width="480" height="400" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://player.youku.com/player.php/sid/XMzAwNDgyNjg0/v.swf" /><param name="allowfullscreen" value="true" /><param name="quality" value="high" /><param name="allowscriptaccess" value="always" /><embed width="480" height="400" type="application/x-shockwave-flash" src="http://player.youku.com/player.php/sid/XMzAwNDgyNjg0/v.swf" allowfullscreen="allowfullscreen" quality="high" allowscriptaccess="always" /></object>
+<iframe height=498 width=510 src="http://player.youku.com/embed/XMzAwNDgyNjg0" frameborder=0 "allowfullscreen"></iframe>
 
 如果您觉得这个客户端还不错，并愿意提供一些资金支持的话，我表示衷心的感谢。
 
