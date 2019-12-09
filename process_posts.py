@@ -4,8 +4,9 @@ import os
 from urllib.parse import unquote
 
 
-with open("posts.json", "r") as json_file:
-  posts = json.load(json_file)
+with open("posts.json", "r") as posts_file:
+  posts_file_content = posts_file.read().replace("\\r\\n", "\\n")
+  posts = json.loads(posts_file_content)
   posts.sort(key=lambda p: p["post_date"], reverse=True)
 
 shutil.rmtree("article", ignore_errors=True)
