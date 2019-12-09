@@ -1,6 +1,6 @@
 # Bing Wallpaper 1.0.0.0
 
-[去年](http://www.kfstorm.com/blog/2012/05/19/bingwallpaper/)我发布了一个自动更换桌面背景为当日的Bing首页图片的小软件，在之后的使用过程中我一直设置了开机启动，但总觉得托盘上的图标很碍眼。于是这两天写了个新版本。新版本没有托盘图标，双击运行会打开一个窗口，里面包含版本信息、设置、当日图片的链接等。这个窗口可以关闭，Bing Wallpaper仍然会在后台运行。关闭窗口后如果想再次打开这个窗口，或者想退出Bing Wallpaper，请再次双击运行程序的exe文件。开机启动是不会显示这个窗口的（仍然可以之后双击exe以显示窗口），比较清静。
+[去年](/article/bingwallpaper)我发布了一个自动更换桌面背景为当日的Bing首页图片的小软件，在之后的使用过程中我一直设置了开机启动，但总觉得托盘上的图标很碍眼。于是这两天写了个新版本。新版本没有托盘图标，双击运行会打开一个窗口，里面包含版本信息、设置、当日图片的链接等。这个窗口可以关闭，Bing Wallpaper仍然会在后台运行。关闭窗口后如果想再次打开这个窗口，或者想退出Bing Wallpaper，请再次双击运行程序的exe文件。开机启动是不会显示这个窗口的（仍然可以之后双击exe以显示窗口），比较清静。
 
 [<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="" src="/attachment/up/blog/images/Bing-Wallpaper-1.0.0.0_13083/thumb.png" alt="" width="504" height="316" border="0" />](/attachment/up/blog/images/Bing-Wallpaper-1.0.0.0_13083/5bb006fc3b9e.png)
 

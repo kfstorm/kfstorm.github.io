@@ -21,6 +21,8 @@ for post in posts:
   content = re.sub(r'https?://[^"<>\s]+/wp-content/uploads/', r'/attachment/uploads/', content)
   content = content.replace("http://up.kfstorm.com/", "/attachment/up/")
   content = content.replace("/_thumb", "/thumb")
+  content = re.sub(r'https?://(www\.)?kfstorm.com/blog/doubanfm/?', r'/article/doubanfm', content)
+  content = re.sub(r'https?://(?:www\.)?kfstorm.com/blog/\d+/\d+/\d+/([^/"<>]+)/?', r'/article/\g<1>', content)
   # replace video tag
   content = re.sub(r'<(?:embed|object).*\"http://player.youku.com/player.php/sid/(\w+)/v.swf.*</(?:embed|object)>', r'<iframe height=498 width=510 src="http://player.youku.com/embed/\g<1>" frameborder=0 "allowfullscreen"></iframe>', content)
   post["post_content"] = content
@@ -58,7 +60,7 @@ with open("index.md.template", "r") as index_template_file:
 
 article_list = ""
 for post in posts:
-  article = "[{}](/article/{}.md) {} [HTML版本](/article/{}-html.html)\n\n" \
+  article = "[{}](/article/{}) {} [HTML版本](/article/{}-html)\n\n" \
     .format(post["post_title"], get_file_name(post), post["post_date"], get_file_name(post))
   article_list += article
 
