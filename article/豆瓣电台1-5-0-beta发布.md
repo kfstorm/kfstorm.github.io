@@ -4,7 +4,7 @@
 
 PS：感叹一下，这是国庆吗……
 
-1.5.0 Beta下载地址：[http://doubanfmcloud-client.stor.sinaapp.com/DoubanFMSetup_1.5.0_Beta.exe](http://doubanfmcloud-client.stor.sinaapp.com/DoubanFMSetup_1.5.0_Beta.exe)
+1.5.0 Beta下载地址：[链接](/attachment/up/doubanfm/DoubanFMSetup_1.5.0_Beta.exe)
 
 [<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="abc" border="0" alt="abc" src="/attachment/up/blog/images/1.5.0-Beta_13DE0/abc_thumb.jpg" width="500" height="281" />](/attachment/up/blog/images/1.5.0-Beta_13DE0/abc.jpg)
 

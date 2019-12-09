@@ -21,6 +21,7 @@ for post in posts:
   content = re.sub(r'https?://[^"<>\s]+/wp-content/uploads/', r'/attachment/uploads/', content)
   content = content.replace("http://up.kfstorm.com/", "/attachment/up/")
   content = content.replace("/_thumb", "/thumb")
+  content = content.replace("http://doubanfmcloud-client.stor.sinaapp.com/", "/attachment/up/doubanfm/")
   content = re.sub(r'https?://(www\.)?kfstorm.com/blog/doubanfm/?', r'/article/doubanfm', content)
   content = re.sub(r'https?://(?:www\.)?kfstorm.com/blog/\d+/\d+/\d+/([^/"<>]+)/?', r'/article/\g<1>', content)
   content = re.sub(r'>/.*?</a>', r'>链接</a>', content)
