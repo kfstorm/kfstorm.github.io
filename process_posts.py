@@ -21,7 +21,10 @@ for post in posts:
     # TODO: replace h1 with h2, h2 with h3, ...
     # TODO: images with anchor
     # TODO: replace "1、" with "1. "
-    lines = [_.strip() for _ in post["post_content"].split("\n")]
+    post_content = post["post_content"]
+    post_content = post_content.replace("</p>", "</p>\n")
+    post_content = post_content.replace("<p>&nbsp;</p>", "")
+    lines = [_.strip() for _ in post_content.split("\n")]
     lines = [_ for _ in lines if len(_) > 0 and _ != "&nbsp;"]
     lines = [_ if _.startswith("<h") or _.startswith("<p") else "<p>{}</p>".format(_) for _ in lines]
     post_content = "\n".join(lines)

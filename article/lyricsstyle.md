@@ -6,8 +6,6 @@
 
 使用歌词样式文件的方法：在软件的设置面板中点击“导入”，选择一个样式文件即可。
 
-&nbsp;
-
 [<img title="K.F.Storm" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="K.F.Storm" src="http://up.kfstorm.com/blog/images/f13fd1f7f515_C2DD/image_thumb.png" width="393" height="83">](http://up.kfstorm.com/lyricsstyle/LyricsStyle_K.F.Storm_Pure.zip)
 
 [<img title="Jacky Kwok" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="Jacky Kwok" src="http://up.kfstorm.com/blog/images/9826db643294_ADBE/4_thumb.jpg" width="504" height="116">](http://up.kfstorm.com/lyricsstyle/LyricsStyle_JackyKwok.zip)

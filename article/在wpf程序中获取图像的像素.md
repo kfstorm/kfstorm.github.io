@@ -8,6 +8,8 @@ System.Windows.Media.Imaging.BitmapSource类有一个CopyPixels方法，并有�
 
 下面是一个封装好的类，可以获取任一点的Color，并可计算图片的平均色。
 
+<!--more--><pre class="brush:csharp">using System;
+
 using System.Collections.Generic;
 
 using System.Linq;
@@ -165,7 +167,3 @@ return Color.FromArgb((byte)a, (byte)r, (byte)g, (byte)b);
 [<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image39" border="0" alt="image39" src="http://up.kfstorm.com/blog/images/60e1c5ea7974_134B9/image39_thumb.jpg" width="500" height="333">](http://up.kfstorm.com/blog/images/60e1c5ea7974_134B9/image39.jpg)
 
 [<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image40" border="0" alt="image40" src="http://up.kfstorm.com/blog/images/60e1c5ea7974_134B9/image40_thumb.jpg" width="500" height="333">](http://up.kfstorm.com/blog/images/60e1c5ea7974_134B9/image40.jpg)
-
-&nbsp;
-
-&nbsp;
