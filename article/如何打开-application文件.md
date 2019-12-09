@@ -14,7 +14,7 @@
 
 1、Shift+右键点击一个.application文件，选择“打开方式”或“打开方式——选择默认程序”。
 
-[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="无标题" alt="无标题" src="/attachment/up/blog/images/f9759a021aef_EC17/_thumb.jpg" width="395" height="357" border="0" />](/attachment/up/blog/images/f9759a021aef_EC17/9408e2fc94c9.jpg)
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="无标题" alt="无标题" src="/attachment/up/blog/images/f9759a021aef_EC17/thumb.jpg" width="395" height="357" border="0" />](/attachment/up/blog/images/f9759a021aef_EC17/9408e2fc94c9.jpg)
 
 2、勾选“所有.application文件都用这个应用打开”，然后选择“浏览”或“更多选项——在这台电脑上查找其他应用”。
 
