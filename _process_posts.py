@@ -10,7 +10,7 @@ def get_file_name(post):
   return re.sub(r'\p{P}+', "-", unquote(post["post_name"]))
 
 
-with open("posts.json", "r") as posts_file:
+with open("_posts.json", "r") as posts_file:
   posts_file_content = posts_file.read().replace("\\r\\n", "\\n")
   posts = json.loads(posts_file_content)
   posts.sort(key=lambda p: p["post_date"], reverse=True)
@@ -58,7 +58,7 @@ for post in posts:
     post_content = "\n".join(lines)
     post_file.write("# {}\n{}".format(post["post_title"], tomd.convert(post_content)))
 
-with open("index.md.template", "r") as index_template_file:
+with open("_index.md.template", "r") as index_template_file:
   index_template = index_template_file.read()
 
 article_list = ""
