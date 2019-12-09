@@ -1,0 +1,7 @@
+# Bing Wallpaper 1.0.2.0
+
+Bing Wallpaper 1.0.1.0有一个严重的bug，会使某些情况下更换壁纸的功能彻底失效。请大家更新到1.0.2.0版本。
+
+现在博客标题下面建立了Bing Wallpaper的页面，所以也许没大更新的话，我只会在那个页面里更新版本号和下载链接，不会特地发一篇新文章对更新进行说明了。
+
+下载地址：[http://up.kfstorm.com/BingWallpaper_1.0.2.0.zip](http://up.kfstorm.com/BingWallpaper_1.0.2.0.zip)

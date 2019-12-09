@@ -1,0 +1,121 @@
+# 豆瓣电台FAQ
+
+也可以加入QQ群反映问题：190056088
+
+最后更新：2013.03.08
+
+# 1、为什么安装好后运行不了？<!--more-->
+
+请看清系统要求，（1）操作系统要求XP、Vista、Win7或者Win8，不支持98和2000。（2）要求系统中有.NET Framework 4.0，XP本身是不带.NET的，Vista自带3.0，Win7自带3.5，Win8自带4.5，所以即使是全新安装的Win7也不能直接运行这个软件，必须先安装.NET 4.0，而Win8可以直接运行。（3）需要Windows Media Player 10或更高版本，因为刚安装的XP是WMP9，所以需要先安装WMP10、11或者12。
+
+达到系统要求后，应该就能运行本软件了。
+
+查看当前系统的.NET版本方法：
+
+打开C:\Windows\Microsoft.NET\Framework，如果这个文件夹下有v4.0.30319这个文件夹，就说明有.NET 4.0。如下图：
+
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image" alt="image" src="http://up.kfstorm.com/blog/images/FAQ_DCA8/image_thumb.jpg" width="500" height="314" border="0" />](http://up.kfstorm.com/blog/images/FAQ_DCA8/image.jpg)
+
+点击[这里](http://www.microsoft.com/zh-cn/download/details.aspx?id=30653)下载.NET Framework 4.5。（XP用户请点[这里](http://www.microsoft.com/zh-cn/download/details.aspx?id=17718)下载.NET Framework 4.0。）
+
+### 
+
+# 2、为什么有时听歌没声音？
+
+这是微软的bug，网络不好时，很可能音乐缓冲时下载断掉了，就会出现这种情况。这个问题目前没办法解决，但可以跳到下一首，如果网络状况不是很糟，应该是能正常播放的。
+
+（从来就没声音的请见第10条）
+
+自1.7.1版开始，不再出现这种情况。
+
+# 3、为什么不能下载歌曲？
+
+因为这涉及到版权保护的问题，所以下载音乐的功能我是不会去做的，希望大家理解，支持正版。
+
+# 4、怎么设置歌词的字体？
+
+（关于歌词的详细设置方法，请查看豆瓣电台软件中“信息”面板中“豆瓣电台”标题右侧的“帮助”按钮。）
+
+别以为这软件的歌词字体设置仅仅是选一种字体那么简单，因为它是可以同时设置多种字体的！举个例子吧，比如大部分中文字体的中文还挺好看，但英文丑得不行，但选择英文字体又会使汉字显示的是默认的微软雅黑（win7），如果只能设置一种字体，那就会导致选择英文字体也不爽，选择中文字体还是不爽。本软件可以设置多种字体，常见的设置是第一优先为英文字体，第二优先为中文字体。设置方法是打开歌词设置窗口，在字体一栏里填入类似“Century,华文新魏”这样的文字，而不是通过下拉菜单选择。格式要求是字体名称间用逗号隔开（半角全角均可），如果设置成功就能看到效果，如果设置失败就会变成默认的微软雅黑。还有比如这种情况：华文新魏里没有繁体中文的字形，所以歌词里有繁体中文时，繁体字会显示成微软雅黑，所以这里要设置第三种字体：“Century,华文新魏,楷体”，因为楷体有繁体字形，所以繁体字会显示成楷体。
+
+下面是设置成功后的效果：
+
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image1" alt="image1" src="http://up.kfstorm.com/blog/images/FAQ_DCA8/image1_thumb.jpg" width="500" height="281" border="0" />](http://up.kfstorm.com/blog/images/FAQ_DCA8/image1.jpg)
+
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image2" alt="image2" src="http://up.kfstorm.com/blog/images/FAQ_DCA8/image2_thumb.jpg" width="500" height="281" border="0" />](http://up.kfstorm.com/blog/images/FAQ_DCA8/image2.jpg)
+
+# 5、为什么点击分享到其他网站的链接后不能听到我分享的那首音乐？
+
+这是因为豆瓣对网页做了手脚，会查看你是从哪个网站过来的，从某些网站（比如人人）进入豆瓣电台的网站会转到豆瓣电台的首页（也就是和直接在浏览器里输入douban.fm一样）。可以把分享的链接复制出来，粘贴到浏览器地址栏里打开，就可以听到分享的歌曲了。
+
+# 6、为什么本来已经登录了，并且勾选了下次自动登录，结果下次打开软件时却没有自动登录？
+
+~~一般情况下是因为你在浏览器中注销过豆瓣的帐号导致的，豆瓣规定得很严，只要在一个地方注销了，所有已登录的地方都会注销（比如同时使用多个浏览器登录豆瓣，然后在其中一个浏览器注销掉，这时其他浏览器也会注销），本软件也不例外。所以只能尽量避免在任何地方注销豆瓣了。~~
+
+自2.0.9.0版开始不再出现这种情况。
+
+# 7、为什么搜索出的频道分享到人人网时会提示“对不起，您的分享内容不适合在网站发布”？
+
+因为搜索出的频道的分享链接比较特殊，有:和|这两个符号，人人网会认为这是非法网址。目前没有解决办法。
+
+自1.7.6版开始不再出现这种情况。
+
+# 8、为什么点注销却注销不了？先显示正在注销，但马上又显示已登录。
+
+这个问题正在解决中，目前有两种方法强行注销。第一种方法是在网页上注销一次，再打开电台客户端。第二种方法是先关闭客户端，然后删除“%AppData%\K.F.Storm\豆瓣电台”这个文件，再打开客户端。
+
+自1.7.1版开始不再出现这种情况。
+
+# 9、程序崩溃了……
+
+如果发生了程序崩溃的情况，请向我反应，尽量描述清楚当时正在进行什么操作，正在听什么频道等信息，最好附上错误日志。
+
+自2.0.2版本开始，软件崩溃时会将错误日志写入硬盘，错误日志保存的路径为"%AppData%\K.F.Storm\豆瓣电台\error.log"。
+
+2.0.1及更早版本查看错误日志的方法：
+
+1、打开事件查看器。
+
+Win7下，在开始菜单搜索“事件”，在搜索结果中打开事件查看器。
+
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image3" alt="image3" src="http://up.kfstorm.com/blog/images/FAQ_DCA8/image3_thumb.jpg" width="491" height="480" border="0" />](http://up.kfstorm.com/blog/images/FAQ_DCA8/image3.jpg)
+
+XP下，单击“开始”，然后单击“控制面板”。单击“性能和维护”，再单击“管理工具”，然后双击“计算机管理”，在控制台树中，单击“事件查看器”。
+
+2、查找本程序的错误日志。
+
+Win7下，在事件查看器左侧依次选择“Windows日志”、“应用程序”，然后点击右侧的“筛选当前日志…”
+
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image4" alt="image4" src="http://up.kfstorm.com/blog/images/FAQ_DCA8/image4_thumb.jpg" width="500" height="267" border="0" />](http://up.kfstorm.com/blog/images/FAQ_DCA8/image4.jpg)
+
+在事件来源中勾选“.NET Runtime”，然后点击确定。
+
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image5" alt="image5" src="http://up.kfstorm.com/blog/images/FAQ_DCA8/image5_thumb.jpg" width="500" height="500" border="0" />](http://up.kfstorm.com/blog/images/FAQ_DCA8/image5.jpg)
+
+找到时间最接近崩溃时的时间的那一条日志，确认下面的常规中写着“应用程序: DoubanFM.exe”。若无问题，常规下面的框中的内容即为我需要的错误日志信息，请复制出来。
+
+[<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image6" alt="image6" src="http://up.kfstorm.com/blog/images/FAQ_DCA8/image6_thumb.jpg" width="500" height="267" border="0" />](http://up.kfstorm.com/blog/images/FAQ_DCA8/image6.jpg)
+
+# 10、为什么无法播放音乐，音乐进度条不走动？
+
+目前已知的一种情况是：电脑上安装的Windows Media Player是测试版，而不是正式版。比如XP下Windows Media Player 11的测试版就会导致无法播放音乐，安装正式版即可解决问题。[点此下载Windows Media Player 11 for XP的正式版本](http://www.microsoft.com/downloads/zh-cn/details.aspx?FamilyID=1d224714-e238-4e45-8668-5166114010ca&amp;displayLang=zh-cn)（Vista和Win7用户不要用这个版本）。因为Vista自带11，Win7自带12，所以应该不存在这个问题。
+
+（偶尔没声音的请见第2条）
+
+自1.7.1版开始，不再依赖Windows Media Player，所以不会出现这种情况。
+
+# 11、为什么给窗口设置半透明颜色背景时不是变半透明，而是变黑？
+
+窗口半透明只有在开启窗口阴影时才有效，先开启窗口阴影（重启软件生效），然后就能设置成半透明窗口背景了。
+
+自1.7.0版后不再出现这种情况。
+
+# 12、修改主界面字体后经常看不清字，怎么办？
+
+可以把主界面缩放调大一点，字会清晰很多。
+
+# 13、为什么登录后就无法使用了，需要重置设置才能继续使用？
+
+请打开浏览器进入[www.douban.com](http://www.douban.com)并登录，检查一下自己的帐号是否存在异常，有可能是帐号被锁定，或者帐号未激活。
+
+# 
