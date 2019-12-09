@@ -8,155 +8,88 @@ System.Windows.Media.Imaging.BitmapSource类有一个CopyPixels方法，并有�
 
 下面是一个封装好的类，可以获取任一点的Color，并可计算图片的平均色。
 
+```csharp
+using System;
 using System.Collections.Generic;
-
 using System.Linq;
-
 using System.Text;
-
 using System.Windows.Media;
-
 using System.Windows.Media.Imaging;
-
 using System.Threading;
 
 namespace BitmapPixelTest
-
 {
+	/// <summary>
+	/// 用于获取位图像素的类
+	/// </summary>
+	public class BitmapPixelHelper
+	{
+		/// <summary>
+		/// 位图宽度
+		/// </summary>
+		public int Width { get; protected set; }
+		/// <summary>
+		/// 位图高度
+		/// </summary>
+		public int Height { get; protected set; }
+		/// <summary>
+		/// 像素
+		/// </summary>
+		public Color[][] Pixels { get; protected set; }
 
-/// &lt;summary&gt;
+		/// <summary>
+		/// 根据指定的位图生成BitmapPixelHelper类的新实例。
+		/// </summary>
+		/// <param name="bitmap">指定的位图</param>
+		public BitmapPixelHelper(BitmapSource bitmap)
+		{
+			FormatConvertedBitmap newBitmap = new FormatConvertedBitmap(bitmap, PixelFormats.Bgra32, BitmapPalettes.WebPaletteTransparent, 0);
+			const int bytesPerPixel = 4;
+			Height = newBitmap.PixelHeight;
+			Width = newBitmap.PixelWidth;
+			byte[] data = new byte[Height * Width * bytesPerPixel];
+			newBitmap.CopyPixels(data, Width * bytesPerPixel, 0);
 
-/// 用于获取位图像素的类
+			Pixels = new Color[Height][];
+			for (int i = 0; i < Height; ++i)
+			{
+				Pixels[i] = new Color[Width];
+				for (int j = 0; j < Width; ++j)
+				{
+					Pixels[i][j] = Color.FromArgb(
+						data[(i * Width + j) * bytesPerPixel + 3],
+						data[(i * Width + j) * bytesPerPixel + 2],
+						data[(i * Width + j) * bytesPerPixel + 1],
+						data[(i * Width + j) * bytesPerPixel + 0]);
+				}
+			}
+		}
 
-/// &lt;/summary&gt;
-
-public class BitmapPixelHelper
-
-{
-
-/// &lt;summary&gt;
-
-/// 位图宽度
-
-/// &lt;/summary&gt;
-
-public int Width { get; protected set; }
-
-/// &lt;summary&gt;
-
-/// 位图高度
-
-/// &lt;/summary&gt;
-
-public int Height { get; protected set; }
-
-/// &lt;summary&gt;
-
-/// 像素
-
-/// &lt;/summary&gt;
-
-public Color[][] Pixels { get; protected set; }
-
-/// &lt;summary&gt;
-
-/// 根据指定的位图生成BitmapPixelHelper类的新实例。
-
-/// &lt;/summary&gt;
-
-/// &lt;param name="bitmap"&gt;指定的位图&lt;/param&gt;
-
-public BitmapPixelHelper(BitmapSource bitmap)
-
-{
-
-FormatConvertedBitmap newBitmap = new FormatConvertedBitmap(bitmap, PixelFormats.Bgra32, BitmapPalettes.WebPaletteTransparent, 0);
-
-const int bytesPerPixel = 4;
-
-Height = newBitmap.PixelHeight;
-
-Width = newBitmap.PixelWidth;
-
-byte[] data = new byte[Height * Width * bytesPerPixel];
-
-newBitmap.CopyPixels(data, Width * bytesPerPixel, 0);
-
-Pixels = new Color[Height][];
-
-for (int i = 0; i &lt; Height; ++i)
-
-{
-
-Pixels[i] = new Color[Width];
-
-for (int j = 0; j &lt; Width; ++j)
-
-{
-
-Pixels[i][j] = Color.FromArgb(
-
-data[(i * Width + j) * bytesPerPixel + 3],
-
-data[(i * Width + j) * bytesPerPixel + 2],
-
-data[(i * Width + j) * bytesPerPixel + 1],
-
-data[(i * Width + j) * bytesPerPixel + 0]);
-
+		/// <summary>
+		/// 获取图片的平均色
+		/// </summary>
+		public Color GetAverageColor()
+		{
+			int a = 0, r = 0, g = 0, b = 0;
+			for (int i = 0; i < Height; ++i)
+			{
+				for (int j = 0; j < Width; ++j)
+				{
+					a += Pixels[i][j].A;
+					r += Pixels[i][j].R;
+					g += Pixels[i][j].G;
+					b += Pixels[i][j].B;
+				}
+			}
+			a = a / Height / Width;
+			r = r / Height / Width;
+			g = g / Height / Width;
+			b = b / Height / Width;
+			return Color.FromArgb((byte)a, (byte)r, (byte)g, (byte)b);
+		}
+	}
 }
-
-}
-
-}
-
-/// &lt;summary&gt;
-
-/// 获取图片的平均色
-
-/// &lt;/summary&gt;
-
-public Color GetAverageColor()
-
-{
-
-int a = 0, r = 0, g = 0, b = 0;
-
-for (int i = 0; i &lt; Height; ++i)
-
-{
-
-for (int j = 0; j &lt; Width; ++j)
-
-{
-
-a += Pixels[i][j].A;
-
-r += Pixels[i][j].R;
-
-g += Pixels[i][j].G;
-
-b += Pixels[i][j].B;
-
-}
-
-}
-
-a = a / Height / Width;
-
-r = r / Height / Width;
-
-g = g / Height / Width;
-
-b = b / Height / Width;
-
-return Color.FromArgb((byte)a, (byte)r, (byte)g, (byte)b);
-
-}
-
-}
-
-}</pre>
+```
 
 效果如下（选择图片按钮下方为图片，窗口背景为图片的平均色）：
 

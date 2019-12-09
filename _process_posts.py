@@ -1,3 +1,4 @@
+import html
 import json
 import regex as re
 import shutil
@@ -42,6 +43,12 @@ for post in posts:
     # TODO: images with anchor
     # TODO: replace "1、" with "1. "
     post_content = post["post_content"]
+
+    # replace code tags with placeholders
+    code_pattern = r'<pre class="brush:(\w+)">(.*?)</pre>'
+    code_blocks = re.findall(code_pattern, post_content, flags=re.DOTALL)
+    post_content = re.sub(code_pattern, r'\n<pre><code>CODE_LANGUAGE;CODE_CONTENT</code></pre>\n', post_content, flags=re.DOTALL)
+
     post_content = post_content.replace("&#160;", "")
     post_content = post_content.replace("&nbsp;", "")
     post_content = post_content.replace("<!--more-->", "")
@@ -55,8 +62,20 @@ for post in posts:
     lines = [_ for _ in lines if len(_) > 0]
     lines = [_ if not _.startswith("<p>") or _.endswith("</p>") else "{}</p>".format(_) for _ in lines]
     lines = [_ if _.startswith("<h") or _.startswith("<p") else "<p>{}</p>".format(_) for _ in lines]
+
+    # replace placeholders with code
+    j = 0
+    for i in range(0, len(lines)):
+      if 'CODE_CONTENT' in lines[i]:
+        lines[i] = lines[i].replace('CODE_LANGUAGE;', 'CODE_LANGUAGE;' + code_blocks[j][0] + "\n")
+        lines[i] = lines[i].replace('CODE_CONTENT', html.unescape(code_blocks[j][1]))
+        j += 1
+
     post_content = "\n".join(lines)
-    post_file.write("# {}\n{}".format(post["post_title"], tomd.convert(post_content)))
+    post_content = tomd.convert(post_content)
+    post_content = post_content.replace("```\nCODE_LANGUAGE;", "```")
+    post_content = "# {}\n{}".format(post["post_title"], post_content)
+    post_file.write(post_content)
 
 with open("_index.md.template", "r") as index_template_file:
   index_template = index_template_file.read()
