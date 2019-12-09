@@ -4,7 +4,7 @@
 
 # 下载地址
 
-[/attachment/up/BingWallpaper.exe](/attachment/up/BingWallpaper.exe)
+[链接](/attachment/up/BingWallpaper.exe)
 
 *需要.NET Framework 3.5的支持。
 

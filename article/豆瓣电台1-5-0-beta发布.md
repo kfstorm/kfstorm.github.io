@@ -24,4 +24,4 @@ PS：感叹一下，这是国庆吗……
 
 4、歌曲标题中含有“instrumental”的将不下载歌词。
 
-详细信息请看：[/article/doubanfm](/article/doubanfm)
+详细信息请看：[链接](/article/doubanfm)

@@ -20,4 +20,4 @@
 
 6、修复窗口完全透明时无法拖动窗口的bug。
 
-详细信息请看：[/article/doubanfm](/article/doubanfm)
+详细信息请看：[链接](/article/doubanfm)
