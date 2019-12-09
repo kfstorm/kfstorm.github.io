@@ -1,6 +1,4 @@
-# Welcome to K.F.Storm's Home!
-
-⚠️网站正迁移至GitHub Pages中
+🚧⚠️网站正迁移至GitHub Pages中
 
 # 文章列表
 
