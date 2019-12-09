@@ -4,8 +4,6 @@
 
 [<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border: 0px;" title="" src="/attachment/up/blog/images/Bing-Wallpaper-1.0.0.0_13083/thumb.png" alt="" width="504" height="316" border="0" />](/attachment/up/blog/images/Bing-Wallpaper-1.0.0.0_13083/5bb006fc3b9e.png)
 
-<!--more-->
-
 本应用需要.NET Framework 3.5以上版本的支持。
 
 各Windows版本自带的.NET Framework版本列表：

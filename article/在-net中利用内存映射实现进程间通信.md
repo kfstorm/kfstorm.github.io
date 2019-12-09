@@ -10,8 +10,6 @@
 
 这和进程间通信有什么关系呢？原来跳转列表中的一个个频道其实是一个个任务，每个任务都是一个命令行，有执行文件的路径，也有参数。
 
-<!--more--><pre class="brush:csharp">/// &lt;summary&gt;
-
 /// 将频道添加到跳转列表
 
 /// &lt;/summary&gt;
@@ -385,8 +383,6 @@ long capacity
 string mapName
 
 )</pre>
-
-&#160;
 
 CreateNew和CreateOrOpen用于创建（或打开）一个内存映射文件，选一个用就行了，OpenExisting用于打开一个已经存在的内存映射文件，CreateViewStream用于打开流，这样就可以像读写普通文件一样读写内存映射文件了。
 

@@ -6,8 +6,6 @@
 
 有极少数用户在点击我的豆瓣电台软件主页上的“立即使用”后下载下来一个文件名为doubanfm.application的文件，但却无法打开它，原因是缺少默认的打开方式（或者打开方式设置错误）。出现这个问题有两种可能，一种是没安装.NET Framework，解决方法就是安装一个.NET Framework。另一种情况很少有人遇到，就是已安装.NET Framework，但仍然无法打开，具体原因未知。
 
-<!--more-->
-
 正常情况下安装.NET Framework后.application格式会自动关联到ClickOnce应用程序部署支持库上。如果安装.NET Framework后.application文件仍无法打开，可以尝试修复文件关联到“%WINDIR%\System32\dfshim.dll”这个文件上。
 
 具体方法如下：

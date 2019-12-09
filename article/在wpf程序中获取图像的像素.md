@@ -8,8 +8,6 @@ System.Windows.Media.Imaging.BitmapSource类有一个CopyPixels方法，并有�
 
 下面是一个封装好的类，可以获取任一点的Color，并可计算图片的平均色。
 
-<!--more--><pre class="brush:csharp">using System;
-
 using System.Collections.Generic;
 
 using System.Linq;

@@ -31,10 +31,14 @@ for post in posts:
     # TODO: images with anchor
     # TODO: replace "1、" with "1. "
     post_content = post["post_content"]
+    post_content = post_content.replace("&#160;", "")
+    post_content = post_content.replace("&nbsp;", "")
+    post_content = post_content.replace("<!--more-->", "")
+    post_content = post_content.replace("<p>", "\n<p>")
     post_content = post_content.replace("</p>", "</p>\n")
-    post_content = post_content.replace("<p>&nbsp;</p>", "")
+    post_content = post_content.replace("<p></p>", "")
     lines = [_.strip() for _ in post_content.split("\n")]
-    lines = [_ for _ in lines if len(_) > 0 and _ != "&nbsp;"]
+    lines = [_ for _ in lines if len(_) > 0]
     lines = [_ if _.startswith("<h") or _.startswith("<p") else "<p>{}</p>".format(_) for _ in lines]
     post_content = "\n".join(lines)
     post_file.write("# {}\n{}".format(post["post_title"], tomd.convert(post_content)))

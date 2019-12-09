@@ -12,8 +12,6 @@ PS：感叹一下，这是国庆吗……
 
 [<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="abc3" border="0" alt="abc3" src="/attachment/up/blog/images/1.5.0-Beta_13DE0/abc3_thumb.jpg" width="500" height="281" />](/attachment/up/blog/images/1.5.0-Beta_13DE0/abc3.jpg)
 
-&#160;
-
 更新说明：
 
 1.5.0 Beta (2011-10-03)
@@ -25,7 +23,5 @@ PS：感叹一下，这是国庆吗……
 3、增加热键“显示/最小化”和“显示/隐藏”。
 
 4、歌曲标题中含有“instrumental”的将不下载歌词。
-
-&#160;
 
 详细信息请看：[http://www.kfstorm.com/blog/doubanfm/](http://www.kfstorm.com/blog/doubanfm/)
