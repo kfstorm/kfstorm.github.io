@@ -2,7 +2,7 @@
 
 祝大家新年快乐！
 
-[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="DoubanFM_1.7.4_2" border="0" alt="DoubanFM_1.7.4_2" src="/attachment/upblog/images/AeroZune1.7.4_FDAB/DoubanFM_1.7.4_2_thumb.jpg" width="500" height="234" />](/attachment/upblog/images/AeroZune1.7.4_FDAB/DoubanFM_1.7.4_2.jpg)
+[<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="DoubanFM_1.7.4_2" border="0" alt="DoubanFM_1.7.4_2" src="/attachment/up/blog/images/AeroZune1.7.4_FDAB/DoubanFM_1.7.4_2_thumb.jpg" width="500" height="234" />](/attachment/up/blog/images/AeroZune1.7.4_FDAB/DoubanFM_1.7.4_2.jpg)
 
 &#160;
 

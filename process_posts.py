@@ -10,7 +10,7 @@ with open("posts.json", "r") as posts_file:
   posts_file_content = posts_file.read().replace("\\r\\n", "\\n")
   # replace URLs
   posts_file_content = re.sub(r'https?://[^"<>\s]+/wp-content/uploads/', r'/attachment/uploads/', posts_file_content)
-  posts_file_content = posts_file_content.replace("http://up.kfstorm.com/", "/attachment/up")
+  posts_file_content = posts_file_content.replace("http://up.kfstorm.com/", "/attachment/up/")
   posts = json.loads(posts_file_content)
   posts.sort(key=lambda p: p["post_date"], reverse=True)
 

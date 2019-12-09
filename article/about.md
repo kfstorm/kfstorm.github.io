@@ -1,6 +1,6 @@
 # 关于
 
-[<img style="background-image: none; float: right; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="face2" src="/attachment/upblog/images/bd25f51d6002_1410E/face2_thumb.jpg" alt="face2" width="278" height="331" align="right" border="0" />](/attachment/upblog/images/bd25f51d6002_1410E/face2.jpg)
+[<img style="background-image: none; float: right; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="face2" src="/attachment/up/blog/images/bd25f51d6002_1410E/face2_thumb.jpg" alt="face2" width="278" height="331" align="right" border="0" />](/attachment/up/blog/images/bd25f51d6002_1410E/face2.jpg)
 
 网名：K.F.Storm
 

@@ -4,15 +4,15 @@
 
 # 下载地址
 
-[/attachment/upBingWallpaper.exe](/attachment/upBingWallpaper.exe)
+[/attachment/up/BingWallpaper.exe](/attachment/up/BingWallpaper.exe)
 
 *需要.NET Framework 3.5的支持。
 
 # 效果截图
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="BingWallpaper2" border="0" alt="BingWallpaper2" src="/attachment/upblog/images/Bing_FDD7/BingWallpaper2_thumb.jpg" width="644" height="364" />](/attachment/upblog/images/Bing_FDD7/BingWallpaper2.jpg)
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="BingWallpaper2" border="0" alt="BingWallpaper2" src="/attachment/up/blog/images/Bing_FDD7/BingWallpaper2_thumb.jpg" width="644" height="364" />](/attachment/up/blog/images/Bing_FDD7/BingWallpaper2.jpg)
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="BingWallpaper" border="0" alt="BingWallpaper" src="/attachment/upblog/images/Bing_FDD7/BingWallpaper_thumb.jpg" width="157" height="107" />](/attachment/upblog/images/Bing_FDD7/BingWallpaper.jpg)
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="BingWallpaper" border="0" alt="BingWallpaper" src="/attachment/up/blog/images/Bing_FDD7/BingWallpaper_thumb.jpg" width="157" height="107" />](/attachment/up/blog/images/Bing_FDD7/BingWallpaper.jpg)
 
 # 功能说明
 
