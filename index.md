@@ -28,33 +28,33 @@
 
 [Bing Wallpaper 1.0.0.0](/article/bing-wallpaper-1-0-0-0.md) 2013-02-06 22:12:11 [HTML版本](/article/bing-wallpaper-1-0-0-0-html.html)
 
-[豆瓣电台2.0.9发布！](/article/豆瓣电台2-0-9发布！.md) 2013-01-08 19:44:48 [HTML版本](/article/豆瓣电台2-0-9发布！-html.html)
+[豆瓣电台2.0.9发布！](/article/豆瓣电台2-0-9发布.md) 2013-01-08 19:44:48 [HTML版本](/article/豆瓣电台2-0-9发布-html.html)
 
 [.NET下使用全局Shell Hook](/article/net下使用全局shell-hook.md) 2013-01-02 23:24:47 [HTML版本](/article/net下使用全局shell-hook-html.html)
 
-[豆瓣电台2.0.8发布！](/article/豆瓣电台2-0-8发布！.md) 2013-01-01 14:23:03 [HTML版本](/article/豆瓣电台2-0-8发布！-html.html)
+[豆瓣电台2.0.8发布！](/article/豆瓣电台2-0-8发布.md) 2013-01-01 14:23:03 [HTML版本](/article/豆瓣电台2-0-8发布-html.html)
 
 [如何打开.application文件?](/article/如何打开-application文件.md) 2012-09-16 16:58:54 [HTML版本](/article/如何打开-application文件-html.html)
 
 [关于](/article/about.md) 2012-09-11 23:26:51 [HTML版本](/article/about-html.html)
 
-[豆瓣电台2.0.7发布！](/article/豆瓣电台2-0-7发布！.md) 2012-09-08 20:15:29 [HTML版本](/article/豆瓣电台2-0-7发布！-html.html)
+[豆瓣电台2.0.7发布！](/article/豆瓣电台2-0-7发布.md) 2012-09-08 20:15:29 [HTML版本](/article/豆瓣电台2-0-7发布-html.html)
 
 [歌词样式](/article/lyricsstyle.md) 2012-08-12 19:17:44 [HTML版本](/article/lyricsstyle-html.html)
 
-[豆瓣电台2.0.6发布！](/article/豆瓣电台2-0-6发布！.md) 2012-08-12 18:36:17 [HTML版本](/article/豆瓣电台2-0-6发布！-html.html)
+[豆瓣电台2.0.6发布！](/article/豆瓣电台2-0-6发布.md) 2012-08-12 18:36:17 [HTML版本](/article/豆瓣电台2-0-6发布-html.html)
 
-[豆瓣电台2.0.5发布！](/article/豆瓣电台2-0-5发布！.md) 2012-08-11 01:15:11 [HTML版本](/article/豆瓣电台2-0-5发布！-html.html)
+[豆瓣电台2.0.5发布！](/article/豆瓣电台2-0-5发布.md) 2012-08-11 01:15:11 [HTML版本](/article/豆瓣电台2-0-5发布-html.html)
 
-[豆瓣电台2.0.4发布！](/article/豆瓣电台2-0-4发布！.md) 2012-08-04 01:07:32 [HTML版本](/article/豆瓣电台2-0-4发布！-html.html)
+[豆瓣电台2.0.4发布！](/article/豆瓣电台2-0-4发布.md) 2012-08-04 01:07:32 [HTML版本](/article/豆瓣电台2-0-4发布-html.html)
 
-[豆瓣电台2.0.3发布！](/article/豆瓣电台2-0-3发布！.md) 2012-07-01 17:57:37 [HTML版本](/article/豆瓣电台2-0-3发布！-html.html)
+[豆瓣电台2.0.3发布！](/article/豆瓣电台2-0-3发布.md) 2012-07-01 17:57:37 [HTML版本](/article/豆瓣电台2-0-3发布-html.html)
 
-[豆瓣电台2.0.2发布！](/article/豆瓣电台2-0-2发布！.md) 2012-06-17 11:14:17 [HTML版本](/article/豆瓣电台2-0-2发布！-html.html)
+[豆瓣电台2.0.2发布！](/article/豆瓣电台2-0-2发布.md) 2012-06-17 11:14:17 [HTML版本](/article/豆瓣电台2-0-2发布-html.html)
 
-[豆瓣电台2.0.1发布！](/article/豆瓣电台2-0-1发布！.md) 2012-05-28 15:02:08 [HTML版本](/article/豆瓣电台2-0-1发布！-html.html)
+[豆瓣电台2.0.1发布！](/article/豆瓣电台2-0-1发布.md) 2012-05-28 15:02:08 [HTML版本](/article/豆瓣电台2-0-1发布-html.html)
 
-[可添加收藏，豆瓣电台2.0.0发布！](/article/可添加收藏，豆瓣电台2-0-0发布！.md) 2012-05-21 00:12:21 [HTML版本](/article/可添加收藏，豆瓣电台2-0-0发布！-html.html)
+[可添加收藏，豆瓣电台2.0.0发布！](/article/可添加收藏，豆瓣电台2-0-0发布.md) 2012-05-21 00:12:21 [HTML版本](/article/可添加收藏，豆瓣电台2-0-0发布-html.html)
 
 [BingWallpaper](/article/bingwallpaper.md) 2012-05-19 18:49:20 [HTML版本](/article/bingwallpaper-html.html)
 
@@ -64,11 +64,11 @@
 
 [关于豆瓣电台客户端突然无法使用的问题](/article/关于豆瓣电台客户端突然无法使用的问题.md) 2012-05-09 22:05:45 [HTML版本](/article/关于豆瓣电台客户端突然无法使用的问题-html.html)
 
-[豆瓣电台1.7.6发布！](/article/豆瓣电台1-7-6发布！.md) 2012-03-23 20:41:56 [HTML版本](/article/豆瓣电台1-7-6发布！-html.html)
+[豆瓣电台1.7.6发布！](/article/豆瓣电台1-7-6发布.md) 2012-03-23 20:41:56 [HTML版本](/article/豆瓣电台1-7-6发布-html.html)
 
-[更多歌词选项，豆瓣电台1.7.5发布！](/article/更多歌词选项，豆瓣电台1-7-5发布！.md) 2012-02-08 02:33:31 [HTML版本](/article/更多歌词选项，豆瓣电台1-7-5发布！-html.html)
+[更多歌词选项，豆瓣电台1.7.5发布！](/article/更多歌词选项，豆瓣电台1-7-5发布.md) 2012-02-08 02:33:31 [HTML版本](/article/更多歌词选项，豆瓣电台1-7-5发布-html.html)
 
-[Aero特效、Zune风格频谱，豆瓣电台1.7.4发布！](/article/aero特效、zune风格频谱，豆瓣电台1-7-4发布！.md) 2012-01-24 18:11:14 [HTML版本](/article/aero特效、zune风格频谱，豆瓣电台1-7-4发布！-html.html)
+[Aero特效、Zune风格频谱，豆瓣电台1.7.4发布！](/article/aero特效、zune风格频谱，豆瓣电台1-7-4发布.md) 2012-01-24 18:11:14 [HTML版本](/article/aero特效、zune风格频谱，豆瓣电台1-7-4发布-html.html)
 
 [关于登录后无法使用客户端，需重置设置后才能使用的声明](/article/关于登录后无法使用客户端，需重置设置后才能使.md) 2012-01-22 17:36:54 [HTML版本](/article/关于登录后无法使用客户端，需重置设置后才能使-html.html)
 
@@ -80,11 +80,11 @@
 
 [多项改进，豆瓣电台1.7.1发布](/article/多项改进，豆瓣电台1-7-1发布.md) 2012-01-10 21:53:03 [HTML版本](/article/多项改进，豆瓣电台1-7-1发布-html.html)
 
-[迎新年，豆瓣电台1.7.0发布！](/article/迎新年，豆瓣电台1-7-0发布！.md) 2012-01-01 17:35:22 [HTML版本](/article/迎新年，豆瓣电台1-7-0发布！-html.html)
+[迎新年，豆瓣电台1.7.0发布！](/article/迎新年，豆瓣电台1-7-0发布.md) 2012-01-01 17:35:22 [HTML版本](/article/迎新年，豆瓣电台1-7-0发布-html.html)
 
 [在WPF程序中获取图像的像素](/article/在wpf程序中获取图像的像素.md) 2011-12-29 23:11:38 [HTML版本](/article/在wpf程序中获取图像的像素-html.html)
 
-[豆瓣电台1.6.4发布，红心兆赫登场！](/article/豆瓣电台1-6-4发布，红心兆赫登场！.md) 2011-12-24 21:43:14 [HTML版本](/article/豆瓣电台1-6-4发布，红心兆赫登场！-html.html)
+[豆瓣电台1.6.4发布，红心兆赫登场！](/article/豆瓣电台1-6-4发布，红心兆赫登场.md) 2011-12-24 21:43:14 [HTML版本](/article/豆瓣电台1-6-4发布，红心兆赫登场-html.html)
 
 [豆瓣电台1.6.3发布](/article/豆瓣电台1-6-3发布.md) 2011-12-22 15:36:40 [HTML版本](/article/豆瓣电台1-6-3发布-html.html)
 

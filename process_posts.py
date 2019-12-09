@@ -6,6 +6,10 @@ import tomd
 from urllib.parse import unquote
 
 
+def get_file_name(post):
+  return unquote(post["post_name"]).replace("！", "")
+
+
 with open("posts.json", "r") as posts_file:
   posts_file_content = posts_file.read().replace("\\r\\n", "\\n")
   # replace URLs
@@ -17,10 +21,10 @@ with open("posts.json", "r") as posts_file:
 shutil.rmtree("article", ignore_errors=True)
 os.mkdir("article")
 for post in posts:
-  post_file_name = "article/{}-html.html".format(unquote(post["post_name"]))
+  post_file_name = "article/{}-html.html".format(get_file_name(post))
   with open(post_file_name, "w") as post_file:
     post_file.write(post["post_content"])
-  post_file_name = "article/{}.md".format(unquote(post["post_name"]))
+  post_file_name = "article/{}.md".format(get_file_name(post))
   with open(post_file_name, "w") as post_file:
     # TODO: replace h1 with h2, h2 with h3, ...
     # TODO: images with anchor
@@ -40,7 +44,7 @@ with open("index.md.template", "r") as index_template_file:
 article_list = ""
 for post in posts:
   article = "[{}](/article/{}.md) {} [HTML版本](/article/{}-html.html)\n\n" \
-    .format(post["post_title"], unquote(post["post_name"]), post["post_date"], unquote(post["post_name"]))
+    .format(post["post_title"], get_file_name(post), post["post_date"], get_file_name(post))
   article_list += article
 
 index_content = index_template.replace("ARTICLE_LIST", article_list)
