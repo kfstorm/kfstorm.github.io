@@ -39,8 +39,8 @@ with open("index.md.template", "r") as index_template_file:
 
 article_list = ""
 for post in posts:
-  article = "[{}](/article/{}-html.html) [Markdown](/article/{}.md) {}\n\n" \
-    .format(post["post_title"], unquote(post["post_name"]), unquote(post["post_name"]), post["post_date"])
+  article = "[{}](/article/{}.md) {} [HTML版本](/article/{}-html.html)\n\n" \
+    .format(post["post_title"], unquote(post["post_name"]), post["post_date"], unquote(post["post_name"]))
   article_list += article
 
 index_content = index_template.replace("ARTICLE_LIST", article_list)
