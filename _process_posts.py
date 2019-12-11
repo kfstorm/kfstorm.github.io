@@ -68,10 +68,13 @@ for post in posts:
     post_content = re.sub("<h\d>", "\n\g<0>", post_content)
     post_content = re.sub("</h\d>", "\g<0>\n", post_content)
     post_content = re.sub("<p>\s*</p>", "", post_content)
+
+    post_content = re.sub(r'<blockquote>(.*?)</blockquote>', lambda m: "<blockquote>{}</blockquote>".format(m.group(1).replace("\n", "").replace("<p>", "").replace("</p>", "").strip()), post_content, flags=re.DOTALL)
+
     lines = [_.strip() for _ in post_content.split("\n")]
     lines = [_ for _ in lines if len(_) > 0]
     lines = [_ if not _.startswith("<p>") or _.endswith("</p>") else "{}</p>".format(_) for _ in lines]
-    lines = [_ if _.startswith("<h") or _.startswith("<p") else "<p>{}</p>".format(_) for _ in lines]
+    lines = [_ if _.startswith("<h") or _.startswith("<p>") or _.startswith("<pre>") or _.startswith("<blockquote>") else "<p>{}</p>".format(_) for _ in lines]
 
     # replace placeholders with code
     j = 0
