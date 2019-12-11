@@ -420,3 +420,14 @@ public DoubanFMWindow()
 通过检查内存映射文件是否已经存在，可以知道程序的另一个实例是否在运行，再也不用通过查找窗口来检测了。
 
 参考链接：.NET中内存映射文件的详细说明：[http://msdn.microsoft.com/zh-cn/library/dd997372.aspx](http://msdn.microsoft.com/zh-cn/library/dd997372.aspx)
+
+# 评论
+
+发布者 | 时间 | 内容
+--- | --- | ---
+K.F.Storm | 2013-12-24 22:48:19 | 随机的
+cyz | 2013-12-21 14:57:52 | private string _mappedFileName = "{04EFCEB4-F10A-403D-9824-1E685C4B7961}";<br/>这个是怎么生成的?是随机产生的GUID么?
+K.F.Storm | 2012-03-26 13:31:39 | 小金鱼<br/>用wcf啊，代码将非常简单<br/>===<br/>是吗？用WCF不需要开一个服务吗？
+小金鱼 | 2012-03-21 09:41:07 | 用wcf啊，代码将非常简单
+K.F.Storm | 2011-10-27 00:54:41 | to王先生，我也只是菜鸟啊
+王先生 | 2011-10-21 00:18:39 | 你还是学生？很崇拜你啊，好厉害，呵呵

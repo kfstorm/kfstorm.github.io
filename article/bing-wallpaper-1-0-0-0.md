@@ -23,3 +23,20 @@ Windows 8：.NET Framework 4.5
 [下载地址](/attachment/up/bingwallpaper/BingWallpaper_1.0.0.0.zip)
 
 博主一向无私，所以Bing Wallpaper也开源了。[去GitHub看看](https://github.com/kfstorm/BingWallpaper)。
+
+# 评论
+
+发布者 | 时间 | 内容
+--- | --- | ---
+华 | 2013-08-01 09:34:01 | 我一直在找个中文版的，一直没找到bing 出了一个缤纷桌面是国际版的，所以不爽
+泉 | 2013-07-11 11:41:06 | 能更新个1.01版本，保存7天内的图片，第二天自动删除最旧的一张。这样就可以使用win8的幻灯片桌面功能，几分钟换个桌面。<br/>谢谢！
+lmq | 2013-07-05 11:40:45 | 希望能设置为拉伸，而不是平铺，可以做一个设置项。
+Sail | 2013-05-31 21:09:04 | 很棒！！<br/>希望改成中文bing，更迎合中国人的偏好。非常感谢作者的努力
+彼时我心 | 2013-05-31 20:37:24 | 改一下路径
+彼时我心 | 2013-05-31 20:36:47 | set "Ymd=%date:~,4%%date:~5,2%%date:~8,2%"<br/>copy C:\Users\wangkai\AppData\Roaming\K.F.Storm\BingWallpaper\image.jpg E:\wallpaper\%Ymd%.jpg
+fans | 2013-04-05 16:43:27 | 确实是小巧精湛的软件，不过还是希望能加上保存图片到指导文件夹，并按照图片名或者日期命名<br/>ps：这个貌似会更新图片后自动退出么？
+K.F.Storm | 2013-03-26 13:52:19 | 由于图片来源是国际版的Bing，所以壁纸的更新时间大概是北京时间每天下午3点左右。
+Thanks | 2013-03-25 17:23:33 | 哇，太好用了~~找半天终于找到这款软件，喜欢，感谢作者的无私奉献~~网上有找到你的0.9版本的，但是总不放心，后来顺蔓摸瓜找到原作者的博客下载，安全又是最新的~总之，谢谢
+sixfancy | 2013-03-25 11:24:41 | 为什么只能同步美国的图片?  时区设置是正确的.
+张奕 | 2013-02-13 17:43:49 | 请教下<br/>我想做个bat<br/>可以把<br/>[C:\Users\Administrator\AppData\Roaming\K.F.Storm\BingWallpaper\image.jpg]<br/>复制到<br/>[F:\wallpaper]<br/>并更名为当天日期yyyymmdd<br/><br/>怎么写....
+yoyodadada | 2013-02-07 11:52:09 | 果断下载，看看效果如何

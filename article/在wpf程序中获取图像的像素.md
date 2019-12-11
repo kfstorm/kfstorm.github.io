@@ -98,3 +98,9 @@ namespace BitmapPixelTest
 [<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image39" border="0" alt="image39" src="/attachment/up/blog/images/60e1c5ea7974_134B9/image39_thumb.jpg" width="500" height="333">](/attachment/up/blog/images/60e1c5ea7974_134B9/image39.jpg)
 
 [<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image40" border="0" alt="image40" src="/attachment/up/blog/images/60e1c5ea7974_134B9/image40_thumb.jpg" width="500" height="333">](/attachment/up/blog/images/60e1c5ea7974_134B9/image40.jpg)
+
+# 评论
+
+发布者 | 时间 | 内容
+--- | --- | ---
+韩总 | 2012-02-24 11:17:22 | 不错，不错，哈哈哈。。。

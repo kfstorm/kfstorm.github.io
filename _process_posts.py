@@ -16,6 +16,13 @@ with open("_posts.json", "r") as posts_file:
   posts = json.loads(posts_file_content)
   posts.sort(key=lambda p: p["post_date"], reverse=True)
 
+with open("_comments.json", "r") as comments_file:
+  comments_file_content = comments_file.read().replace("\\r\\n", "\\n")
+  comments = json.loads(comments_file_content)
+  comments.sort(key=lambda p: p["comment_date"], reverse=True)
+  # remove spams
+  comments = [_ for _ in comments if _["comment_author"] != "DanielShok"]
+
 for post in posts:
   # replace URLs
   content = post["post_content"]
@@ -76,6 +83,16 @@ for post in posts:
     post_content = post_content.replace("```\nCODE_LANGUAGE;", "```")
     post_content = "# {}\n{}".format(post["post_title"], post_content)
     post_file.write(post_content)
+
+    post_comments = [_ for _ in comments if _["comment_post_ID"] == post["ID"]]
+    comments_content = "\n# 评论\n\n"
+    if len(post_comments) > 0:
+      comments_content += "发布者 | 时间 | 内容\n--- | --- | ---\n"
+      for comment in post_comments:
+        comments_content += "{} | {} | {}\n".format(comment["comment_author"], comment["comment_date"], comment["comment_content"].replace("\n", "<br/>"))
+    else:
+      comments_content += "（无）\n"
+    post_file.write(comments_content)
 
 with open("_index.md.template", "r") as index_template_file:
   index_template = index_template_file.read()

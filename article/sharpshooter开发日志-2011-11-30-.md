@@ -27,3 +27,7 @@
 效果图：
 
 [<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="clip_image004" border="0" alt="clip_image004" src="/attachment/up/blog/images/Sharpshooter2011-11-30_540/clip_image004_thumb.jpg" width="500" height="400" />](/attachment/up/blog/images/Sharpshooter2011-11-30_540/clip_image004.jpg)
+
+# 评论
+
+（无）
