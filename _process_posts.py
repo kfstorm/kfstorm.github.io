@@ -82,7 +82,7 @@ with open("_index.md.template", "r") as index_template_file:
 
 article_list = ""
 for post in posts:
-  article = "[{}](/article/{}) {} [HTML版本](/article/{}-html)\n\n" \
+  article = "[{}](/article/{}) {}\n\n" \
     .format(post["post_title"], get_file_name(post), post["post_date"], get_file_name(post))
   article_list += article
 
