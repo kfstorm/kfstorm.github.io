@@ -10,6 +10,9 @@ from urllib.parse import unquote
 def get_file_name(post):
   return re.sub(r'\p{P}+', "-", unquote(post["post_name"]))
 
+def get_article_link(post):
+  return "[{}](/article/{})".format(post["post_title"], get_file_name(post))
+
 
 with open("_posts.json", "r") as posts_file:
   posts_file_content = posts_file.read().replace("\\r\\n", "\\n")
@@ -99,10 +102,10 @@ with open("_index.md.template", "r") as index_template_file:
 
 article_list = "文章 | 发布时间\n-- | --\n"
 for post in posts:
-  article = "[{}](/article/{}) | {}\n" \
-    .format(post["post_title"], get_file_name(post), post["post_date"], get_file_name(post))
+  article = "{} | {}\n".format(get_article_link(post), post["post_date"])
   article_list += article
 
-index_content = index_template.replace("ARTICLE_LIST", article_list)
+index_template = re.sub(r'ARTICLE_LINK_(\d+)', lambda m: get_article_link([_ for _ in posts if _["ID"] == int(m.group(1))][0]), index_template)
+index_content = index_template.replace(r'ARTICLE_LIST', article_list)
 with open("index.md", "w") as index_file:
   index_file.write(index_content)
