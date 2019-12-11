@@ -92,7 +92,7 @@ for post in posts:
     if len(post_comments) > 0:
       comments_content += "发布者 | 时间 | 内容\n--- | --- | ---\n"
       for comment in post_comments:
-        comments_content += "{} | {} | {}\n".format(comment["comment_author"], comment["comment_date"], comment["comment_content"].replace("\n", "<br/>"))
+        comments_content += "{} | {} | {}\n".format(comment["comment_author"], comment["comment_date"], comment["comment_content"].replace("\n", "<br/>").replace("|", "\|"))
     else:
       comments_content += "（无）\n"
     post_file.write(comments_content)
