@@ -192,8 +192,6 @@ bool HasAnotherInstance()
 
 每次程序启动时，先用下面的代码检查豆瓣电台是否已经运行：
 
-
-
 ```csharp
 /// <summary>
 /// 检测是否有另一个实例正在运行
@@ -204,8 +202,6 @@ IntPtr hwnd = InteropWindow.FindWindow(null, InteropWindow.CorrectTitle);
     return hwnd != IntPtr.Zero;
 }
 ```
-
-
 
 如果已经运行，则用InteropWindow.SendMessage(InteropWindow.CorrectTitle, message)向窗口发送消息，然后立即退出。
 
@@ -279,8 +275,6 @@ CreateNew和CreateOrOpen用于创建（或打开）一个内存映射文件，�
 
 主窗口有两个私有成员：
 
-
-
 ```csharp
 /// <summary>
 /// 用于进程间更换频道的内存映射文件
@@ -291,8 +285,6 @@ private MemoryMappedFile _mappedFile;
 /// </summary>
 private string _mappedFileName = "{04EFCEB4-F10A-403D-9824-1E685C4B7961}";
 ```
-
-
 
 主窗口的成员方法：
 

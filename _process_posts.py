@@ -70,6 +70,7 @@ for post in posts:
     post_content = post_content.replace("&#160;", "")
     post_content = post_content.replace("&nbsp;", "")
     post_content = post_content.replace("<!--more-->", "")
+    post_content = re.sub("<div.*?>(.*?)</div>", "\g<1>", post_content, flags=re.DOTALL)
     post_content = re.sub("<br\s*/?>", "\n", post_content)
     post_content = post_content.replace("<p>", "\n<p>")
     post_content = post_content.replace("</p>", "</p>\n")
@@ -83,7 +84,16 @@ for post in posts:
     lines = [_.strip() for _ in post_content.split("\n")]
     lines = [_ for _ in lines if len(_) > 0]
     lines = [_ if not _.startswith("<p>") or _.endswith("</p>") else "{}</p>".format(_) for _ in lines]
-    lines = [_ if _.startswith("<h") or _.startswith("<p>") or _.startswith("<pre>") or _.startswith("<blockquote>") else "<p>{}</p>".format(_) for _ in lines]
+    for i in range(0, len(lines)):
+      match = re.search(r'^<(\w+)', lines[i])
+      add_p_tag = True
+      if match:
+        tag = match.group(1)
+        if tag in ["p", "pre", "blockquote"] or re.match(r'h\d+', tag):
+          add_p_tag = False
+
+      if add_p_tag:
+        lines[i] = "<p>{}</p>".format(lines[i])
 
     # replace placeholders with code
     j = 0
