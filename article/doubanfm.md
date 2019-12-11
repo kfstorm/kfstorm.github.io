@@ -54,15 +54,11 @@ Windows XP或更高版本的系统，需要.NET Framework 4.0或4.5。
 
 [<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="DoubanFM_1.7.5_2" src="/attachment/up/blog/images/8e021cd7c326_131F7/DoubanFM_1.7.5_2_thumb.jpg" alt="DoubanFM_1.7.5_2" width="500" height="281" border="0" />](/attachment/up/blog/images/8e021cd7c326_131F7/DoubanFM_1.7.5_2.jpg)
 
-# 
-
 # 功能演示视频第二版（1.7.1版）
 
 [http://v.youku.com/v_show/id_XMzQ0MDczMjQ4.html](http://v.youku.com/v_show/id_XMzQ0MDczMjQ4.html)
 
 <iframe height=498 width=510 src="http://player.youku.com/embed/XMzQ0MDczMjQ4" frameborder=0 "allowfullscreen"></iframe>
-
-# 
 
 # 功能演示视频（1.2.4版）
 

@@ -14,8 +14,6 @@
 
 [<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="clip_image002" border="0" alt="clip_image002" src="/attachment/up/blog/images/Sharpshooter2011-11-30_540/clip_image002_thumb.jpg" width="500" height="383" />](/attachment/up/blog/images/Sharpshooter2011-11-30_540/clip_image002.jpg)
 
-#### 
-
 #### 2. 大数据的发送和接收处理
 
 实现了传输格式化文本后，一个头疼的问题出现了，当发送数据量太大时（其实也不是很大，就一张小图片），客户端会与服务器断开连接（目前客户端与服务器通信时出现任何错误都会强迫相应的ClientManager关闭，从而导致断开连接），并且可能是发送数据的客户端断开，也可能是接收数据的客户端断开。

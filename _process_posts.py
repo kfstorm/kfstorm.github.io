@@ -68,6 +68,7 @@ for post in posts:
     post_content = re.sub("<h\d>", "\n\g<0>", post_content)
     post_content = re.sub("</h\d>", "\g<0>\n", post_content)
     post_content = re.sub("<p>\s*</p>", "", post_content)
+    post_content = re.sub("<h\d+>\s*</h\d+>", "", post_content)
 
     post_content = re.sub(r'<blockquote>(.*?)</blockquote>', lambda m: "<blockquote>{}</blockquote>".format(m.group(1).replace("\n", "").replace("<p>", "").replace("</p>", "").strip()), post_content, flags=re.DOTALL)
 

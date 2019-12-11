@@ -26,8 +26,6 @@
 
 <iframe height=498 width=510 src="http://player.youku.com/embed/XMzQ0MDczMjQ4" frameborder=0 "allowfullscreen"></iframe>
 
-# 
-
 # 功能演示视频（1.2.4版）
 
 [http://v.youku.com/v_show/id_XMzAwNDgyNjg0.html](http://v.youku.com/v_show/id_XMzAwNDgyNjg0.html)

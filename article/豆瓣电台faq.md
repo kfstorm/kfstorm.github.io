@@ -18,8 +18,6 @@
 
 点击[这里](http://www.microsoft.com/zh-cn/download/details.aspx?id=30653)下载.NET Framework 4.5。（XP用户请点[这里](http://www.microsoft.com/zh-cn/download/details.aspx?id=17718)下载.NET Framework 4.0。）
 
-### 
-
 # 2、为什么有时听歌没声音？
 
 这是微软的bug，网络不好时，很可能音乐缓冲时下载断掉了，就会出现这种情况。这个问题目前没办法解决，但可以跳到下一首，如果网络状况不是很糟，应该是能正常播放的。
@@ -117,8 +115,6 @@ Win7下，在事件查看器左侧依次选择“Windows日志”、“应用程
 # 13、为什么登录后就无法使用了，需要重置设置才能继续使用？
 
 请打开浏览器进入[www.douban.com](http://www.douban.com)并登录，检查一下自己的帐号是否存在异常，有可能是帐号被锁定，或者帐号未激活。
-
-# 
 
 # 评论
 
