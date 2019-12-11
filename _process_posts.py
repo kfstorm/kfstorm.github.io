@@ -6,18 +6,38 @@ import os
 import tomd
 from urllib.parse import unquote
 
+def normalize_file_name(file_name):
+  return re.sub(r'\p{P}+', "-", unquote(file_name))
 
 def get_file_name(post):
-  return re.sub(r'\p{P}+', "-", unquote(post["post_name"]))
+  return normalize_file_name(post["post_name"])
 
 def get_article_link(post):
   return "[{}](/article/{})".format(post["post_title"], get_file_name(post))
 
+def replace_urls(content):
+  content = re.sub(r'https?://[^"<>\s]+/wp-content/uploads/', r'/attachment/uploads/', content)
+  content = content.replace("http://up.kfstorm.com/BingWallpaper", "/attachment/up/bingwallpaper/BingWallpaper")
+  content = content.replace("http://up.kfstorm.com/", "/attachment/up/")
+  content = content.replace("/_thumb", "/thumb")
+  content = content.replace("http://doubanfmcloud-client.stor.sinaapp.com/", "/attachment/up/doubanfm/")
+  content = re.sub(r'https?://(www\.)?kfstorm.com/blog/doubanfm/?', r'/article/doubanfm', content)
+  content = re.sub(r'https?://(?:www\.)?kfstorm.com/blog/\d+/\d+/\d+/([^/"<>]+)/?', lambda m: "/article/{}".format(normalize_file_name(m.group(1))), content)
+  content = re.sub(r'>/.*?</a>', r'>链接</a>', content)
+  return content
 
 with open("_posts.json", "r") as posts_file:
   posts_file_content = posts_file.read().replace("\\r\\n", "\\n")
   posts = json.loads(posts_file_content)
   posts.sort(key=lambda p: p["post_date"], reverse=True)
+
+for post in posts:
+  # replace URLs
+  content = post["post_content"]
+  content = replace_urls(content)
+  # replace video tag
+  content = re.sub(r'<(?:embed|object).*\"http://player.youku.com/player.php/sid/(\w+)/v.swf.*</(?:embed|object)>', r'<iframe height=498 width=510 src="http://player.youku.com/embed/\g<1>" frameborder=0 "allowfullscreen"></iframe>', content)
+  post["post_content"] = content
 
 with open("_comments.json", "r") as comments_file:
   comments_file_content = comments_file.read().replace("\\r\\n", "\\n")
@@ -26,20 +46,8 @@ with open("_comments.json", "r") as comments_file:
   # remove spams
   comments = [_ for _ in comments if _["comment_author"] != "DanielShok"]
 
-for post in posts:
-  # replace URLs
-  content = post["post_content"]
-  content = re.sub(r'https?://[^"<>\s]+/wp-content/uploads/', r'/attachment/uploads/', content)
-  content = content.replace("http://up.kfstorm.com/BingWallpaper", "/attachment/up/bingwallpaper/BingWallpaper")
-  content = content.replace("http://up.kfstorm.com/", "/attachment/up/")
-  content = content.replace("/_thumb", "/thumb")
-  content = content.replace("http://doubanfmcloud-client.stor.sinaapp.com/", "/attachment/up/doubanfm/")
-  content = re.sub(r'https?://(www\.)?kfstorm.com/blog/doubanfm/?', r'/article/doubanfm', content)
-  content = re.sub(r'https?://(?:www\.)?kfstorm.com/blog/\d+/\d+/\d+/([^/"<>]+)/?', r'/article/\g<1>', content)
-  content = re.sub(r'>/.*?</a>', r'>链接</a>', content)
-  # replace video tag
-  content = re.sub(r'<(?:embed|object).*\"http://player.youku.com/player.php/sid/(\w+)/v.swf.*</(?:embed|object)>', r'<iframe height=498 width=510 src="http://player.youku.com/embed/\g<1>" frameborder=0 "allowfullscreen"></iframe>', content)
-  post["post_content"] = content
+for comment in comments:
+  comment["comment_content"] = replace_urls(comment["comment_content"])
 
 shutil.rmtree("article", ignore_errors=True)
 os.mkdir("article")
