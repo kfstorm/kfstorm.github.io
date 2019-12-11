@@ -80,9 +80,9 @@ for post in posts:
 with open("_index.md.template", "r") as index_template_file:
   index_template = index_template_file.read()
 
-article_list = ""
+article_list = "文章 | 发布时间\n-- | --\n"
 for post in posts:
-  article = "[{}](/article/{}) {}\n\n" \
+  article = "[{}](/article/{}) | {}\n" \
     .format(post["post_title"], get_file_name(post), post["post_date"], get_file_name(post))
   article_list += article
 
