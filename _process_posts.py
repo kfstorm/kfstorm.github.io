@@ -5,6 +5,7 @@ import shutil
 import os
 import tomd
 from urllib.parse import unquote
+import _post_update
 
 def normalize_file_name(file_name):
   return re.sub(r'\p{P}+', "-", unquote(file_name))
@@ -38,6 +39,8 @@ for post in posts:
   # replace video tag
   content = re.sub(r'<(?:embed|object).*\"http://player.youku.com/player.php/sid/(\w+)/v.swf.*</(?:embed|object)>', r'<iframe height=498 width=510 src="http://player.youku.com/embed/\g<1>" frameborder=0 "allowfullscreen"></iframe>', content)
   post["post_content"] = content
+  # update out-of-date content
+  _post_update.update(post)
 
 with open("_comments.json", "r") as comments_file:
   comments_file_content = comments_file.read().replace("\\r\\n", "\\n")
